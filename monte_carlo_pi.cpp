@@ -10,7 +10,7 @@ int main() {
         
         double x = static_cast<double>(rand()) / RAND_MAX; //random x coordinate between 0.0 and 1.0
         double y = static_cast<double>(rand()) / RAND_MAX; //random y coordinate between 0.0 and 1.0
-        // print r with only 2 decimals x, y coordinates 
+        // print (x, y) coordinates with only 2 decimals
         std::cout << std::fixed << std::setprecision(2) << "(" << x <<", " << y << ")" << std::endl; 
     }
 
