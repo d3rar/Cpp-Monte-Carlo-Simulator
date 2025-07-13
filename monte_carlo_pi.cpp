@@ -1,10 +1,10 @@
-#include <iostream>  // for input/output
-#include <cstdlib>  // for rand(), srand(), RAND_MAX
-#include <ctime>   // for time()
-#include <iomanip>  // for setprecision and fixed
+#include <iostream>  
+#include <cstdlib>  
+#include <ctime>   
+#include <iomanip>  
 
 int main() {
-    std::srand(std::time(0));  // seed random number generator
+    std::srand(std::time(0)); 
 
     int totalPoints = 0;
     int pointsInsideCircle = 0;
