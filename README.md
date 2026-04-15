@@ -1,1 +1,1 @@
-# Cpp-Monte-Carlo-Simulator
+This C++ project is currently a work in progress. It estimates the mathematical constant Pi using the Monte Carlo method. In its current state, it generates 10,000 random points and uses the ratio of points that land inside a circle versus those in a square to calculate a close approximation of Pi. Further features and optimizations are planned.
